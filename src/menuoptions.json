@@ -1,0 +1,136 @@
+{
+  "breakfast": {
+    "0": {
+      "foodName": "Breakfast Burrito",
+      "description": "description (lorem ipsum will suffice)",
+      "imagesrc": "logo192.png",
+      "cost": 4.99
+    },
+    "1": {
+      "foodName": "Pancakes",
+      "description": "description (lorem ipsum will suffice)",
+      "imagesrc": "logo192.png",
+      "cost": 6.99
+    },
+    "2": {
+      "foodName": "Biscuits and Gravy",
+      "description": "description (lorem ipsum will suffice)",
+      "imagesrc": "logo192.png",
+      "cost": 9.99
+    }
+  },
+  "lunch": {
+    "0": {
+      "foodName": "Reuben Sandwich",
+      "description": "description (lorem ipsum will suffice)",
+      "imagesrc": "logo192.png",
+      "cost": 7.49
+    },
+    "1": {
+      "foodName": "Turkey Sandwich",
+      "description": "description (lorem ipsum will suffice)",
+      "imagesrc": "logo192.png",
+      "cost": 5.99
+    },
+    "2": {
+      "foodName": "Caesar Salad",
+      "description": "description (lorem ipsum will suffice)",
+      "imagesrc": "logo192.png",
+      "cost": 9.99
+    },
+    "3": {
+      "foodName": "Minestrone Soup",
+      "description": "description (lorem ipsum will suffice)",
+      "imagesrc": "logo192.png",
+      "cost": 4.49
+    }
+  },
+  "appetizers": {
+    "0": {
+      "foodName": "French Fries",
+      "description": "description (lorem ipsum will suffice)",
+      "imagesrc": "logo192.png",
+      "cost": 4.99
+    },
+    "1": {
+      "foodName": "Onion Rings",
+      "description": "description (lorem ipsum will suffice)",
+      "imagesrc": "logo192.png",
+      "cost": 6.99
+    },
+    "2": {
+      "foodName": "Rocky Mountain Oysters",
+      "description": "description (lorem ipsum will suffice)",
+      "imagesrc": "logo192.png",
+      "cost": 9.99
+    }
+  },
+  "drinks": {
+    "0": {
+      "foodName": "Fountain Soda",
+      "description": "description (lorem ipsum will suffice)",
+      "imagesrc": "logo192.png",
+      "cost": 4.99
+    },
+    "1": {
+      "foodName": "Roy Rogers",
+      "description": "description (lorem ipsum will suffice)",
+      "imagesrc": "logo192.png",
+      "cost": 6.99
+    },
+    "2": {
+      "foodName": "Lemonade",
+      "description": "description (lorem ipsum will suffice)",
+      "imagesrc": "logo192.png",
+      "cost": 9.99
+    }
+  },
+  "desserts": {
+    "0": {
+      "foodName": "Cupcake",
+      "description": "description (lorem ipsum will suffice)",
+      "imagesrc": "logo192.png",
+      "cost": 4.99
+    },
+    "1": {
+      "foodName": "Molten Chocolate Cake",
+      "description": "description (lorem ipsum will suffice)",
+      "imagesrc": "logo192.png",
+      "cost": 6.99
+    },
+    "2": {
+      "foodName": "Cheesecake Slice",
+      "description": "description (lorem ipsum will suffice)",
+      "imagesrc": "logo192.png",
+      "cost": 9.99
+    }
+  },
+  "specials":{
+    "0": {
+      "foodName": "The Alaskan Pipeline",
+      "description": "description (lorem ipsum will suffice)",
+      "imagesrc": "logo192.png",
+      "cost": 4.99
+    },
+    "1": {
+      "foodName": "Purple People-Eater",
+      "description": "description (lorem ipsum will suffice)",
+      "imagesrc": "logo192.png",
+      "cost": 6.99
+    },
+    "2": {
+      "foodName": "Literally just a bowl of Gravy",
+      "description": "description (lorem ipsum will suffice)",
+      "imagesrc": "logo192.png",
+      "cost": 9.99
+    }
+  },
+  "_meta": {
+    "id": {
+      "foodName": "foodName",
+      "description": "description (lorem ipsum will suffice)",
+      "imagesrc": "imagesrc.<filetype> //name of image file in public directory, default logo192.png",
+      "cost": 0.00
+    }
+  }
+}

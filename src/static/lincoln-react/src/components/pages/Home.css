@@ -1,0 +1,11 @@
+#mainp {
+    background-image: url("../images/background.jpg");
+  }
+  #food {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    height: 910px;
+  }

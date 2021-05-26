@@ -1,0 +1,41 @@
+nav{
+    background-color: rgb(48, 87, 48);
+    display: flex;
+    align-items: center;
+    border-bottom: solid #000000;
+  }
+  
+  nav div{
+    display: flex;
+    align-items: center;
+  }
+  
+  nav .block1 {
+    font-size: 40px;
+    width: 60%;
+    vertical-align: center;
+  }
+  nav .block2 {
+    font-size: 40px;
+    margin-right: 10px;
+    vertical-align: center;
+    position: absolute;
+    right: 0px;
+  }
+  button {
+    padding: 10px;
+    color: blueviolet;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+    vertical-align: 60%;
+  }
+  
+  #home {
+          color: black;
+          text-decoration: none;
+        }
+  #home:hover {
+      color: blueviolet;
+  }

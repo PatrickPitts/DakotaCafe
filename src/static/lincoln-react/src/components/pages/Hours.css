@@ -1,0 +1,20 @@
+#hoursmain {
+    background-color: white;
+    height: 520px; 
+}
+
+#title {
+    text-align: center;
+    margin-top: 60px;
+    border-bottom: solid rgb(48, 87, 48);
+    color: rgb(48, 87, 48);
+}
+
+#h3 {
+    color: rgb(48, 87, 48);
+    margin-left: 43%;
+}
+
+#days {
+   margin-left: 45%;
+}

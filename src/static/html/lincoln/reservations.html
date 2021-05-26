@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="label.css" />
+  <style>
+			#reservation {
+				background-image: url("background.jpg");
+			}
+			#main{
+				background-color: white;
+			}
+			h1 {
+				text-align: center;
+				margin-right: 320px;
+				color: rgb(48, 87, 48);
+			}
+			h2 {
+				margin-left: 740px;
+				color: rgb(48, 87, 48);
+			}
+			#ui {
+				margin-left: 740px;
+				width: 400px;
+				box-sizing: border-box;
+			}
+
+			#date{
+				margin-left: 740px;
+				width: 400px;
+				box-sizing: border-box;
+			}
+
+			#contact {
+				margin-left: 100px;
+				color: rgb(48, 87, 48);
+			}
+
+			#choose{
+				margin-left: 640px
+			}
+
+			#ui_message {
+				margin-left: 740px;
+				width: 400px;
+				box-sizing: border-box;
+				height: 150px;
+			}
+			#button {
+				margin-top: 20px;
+				margin-bottom: 30px;
+				padding: 15px 32px;
+				font-size: 16px;
+				color: #000000;
+				background-color: rgb(48, 87, 48);
+				font-weight: bold;
+			}
+			#submit {
+				text-align: center;
+			}
+		</style>
+</head>
+<body id="reservation">
+		 <nav>
+		    <div class="block1">Dakota Cafe</div>
+		    <div class="block2">
+		      <button>Menu</button>
+		      <button>Order Now</button>
+		      <button>Reservation</button>
+		      <button>Sign in</button>
+		    </div>
+  		</nav>
+  		<div id="main">
+			<div>
+				<h1><u>Make a Reservation!</u></h1>
+					<h2>Name</h2>
+						<input type="text" id="ui"></input>
+					<h2>Return Email or Phone</h2>
+						<div id="choose">
+							<label for="email" id="contact">Email:</label>
+							<input type="radio" name="contact" id="email"></input>
+							<label for="phone" id="contact">Phone:</label>
+							<input type="radio" name="contact" id="phone"></input>
+						</div>
+						<input type="text" id="ui"></input>
+					<h2>Date</h2>
+						<input type="date" id="date"></input>
+					<h2>Time</h2>
+						<select class="w3-select" id="ui">
+							<option value="" disabled selected>Desired Time</option>
+							<option value="1">9:00 AM</option>
+							<option value="2">10:00 AM</option>
+							<option value="3">11:00 AM</option>
+							<option value="4">12:00 AM</option>
+							<option value="5">1:00 PM</option>
+							<option value="6">2:00 PM</option>
+						</select>
+					<h2>People</h2>
+						<select class="w3-select" id="ui">
+							<option value="" disabled selected>Number of People</option>
+							<option value="1">1 person</option>
+							<option value="2">2 people</option>
+							<option value="3">3 people</option>
+							<option value="4">4 people</option>
+							<option value="5">5 people</option>
+							<option value="6">6 or more people</option>
+						</select>
+					<h2>Comments (optional)</h2>
+						<input type="text" id="ui_message"></input>
+			</div>
+			<div id="submit">
+				<a href="javascript:window.open('','_self').close();"><button id="button">Submit</button></a>
+			</div>
+		</div>
+	<body>
+</html>

@@ -1,0 +1,51 @@
+#main{
+    background-color: white;
+    height: 100%;
+}
+#h1 {
+    margin-left: 38%;
+    color: rgb(48, 87, 48);
+}
+h2 {
+    margin-left: 41%;
+    color: rgb(48, 87, 48);
+}
+#ui {
+    margin-left: 41%;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+#date{
+    margin-left: 41%;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+#contact {
+    margin-left: 90px;
+    color: rgb(48, 87, 48);
+}
+
+#choose{
+    margin-left: 41%;
+}
+
+#ui_message {
+    margin-left: 41%;
+    width: 400px;
+    box-sizing: border-box;
+    height: 150px;
+}
+#button {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 15px 32px;
+    font-size: 16px;
+    color: #000000;
+    background-color: rgb(48, 87, 48);
+    font-weight: bold;
+}
+#submit {
+    text-align: center;
+}

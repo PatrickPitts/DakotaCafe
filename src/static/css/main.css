@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(48, 87, 48);
+
+}
+
+nav{border: 2px solid black}
+
+.food-type-choose{
+    display: flex;
+    width:100%;
+    height:100%;
+    border-radius: 0;
+    background-color: rgb(48, 187, 48);
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+
+}
+.selected{
+    background-color: rgb(48, 187, 148);
+
+}
+.food-type-choose:hover{
+    background-color: rgb(148, 187, 148);
+
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    height:100px;
+    text-align: center;
+}
+.food-item-display{
+    border: 2px solid black;
+}
+.menu-choices td{
+
+}
+
+.add-to-cart{
+    border: 2px solid black;
+    border-radius: 3px;
+    background: white;
+    text-align: center;
+}
+
+.add-to-cart a{
+    text-decoration: none;
+}
+#menu-display{
+    padding: 1%;
+}
+
+#menu-display li{
+  height: fit-content;
+}
+
+#menu-display table{
+    border-bottom: 2px solid black;
+}
+#cart-display li{
+    height: auto;
+    text-align: center;
+}
+#cart-display table{
+    width: 80%;
+}
+
+#cart-display .item{
+    text-align: left;
+}
+#cart-display .cost{
+    text-align: right;
+}
+
+a:link, a:visited, a:active{
+    text-decoration: none;
+    color: black;
+}
