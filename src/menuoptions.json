@@ -37,12 +37,6 @@
       "description": "description (lorem ipsum will suffice)",
       "imagesrc": "logo192.png",
       "cost": 9.99
-    },
-    "3": {
-      "foodName": "Minestrone Soup",
-      "description": "description (lorem ipsum will suffice)",
-      "imagesrc": "logo192.png",
-      "cost": 4.49
     }
   },
   "appetizers": {
